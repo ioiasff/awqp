@@ -11,8 +11,8 @@ end
 if msg.text == "خوبی" then
 	return "خوبم تو‌چطوری"
 end
-if msg.text == "خوبم ممنون" then
-	return "خدا رو شکر "
+if msg.text == "ممنون" then
+	return "خواهش"
 end
 if msg.text == "اوکی" then
 	return "اوکی✅"
@@ -56,7 +56,7 @@ return {
 		"^سلام$",
 		"^س$",
 		"^خوبی$",
-		"^خوبم  ممنون$",
+		"^ممنون$",
 		"^اوکی$",
 		"^چیکار میکنی$",
 		"^بای$",
