@@ -239,21 +239,21 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {118682430},--Sudo users
+    sudo_users = {152485254,152350938},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
+    about_text = [[Death bot 2.6
     
-     Hello my Good friends ߘట搰
+     Hi🌠
      
-    ‼️ this bot is made by : @creed_is_dead
+    ‼️ this bot is made by : @arash_admin_death
    〰〰〰〰〰〰〰〰
-   ߚ頏ur admins are : 
-   ߔࠀsorblack_creed
-   ߔࠀamircc_creed
-   ߔࠀaria_creed
-   ߔࠀalireza_mah_creed 
+   ߚadmins: 
+   ߔࠀarash
+   ߔࠀfazel
+   ߔࠀ@arash_admin_death
+   ߔࠀ@fazel_admin_death
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
@@ -440,7 +440,7 @@ from realm®®
 〰〰〰〰〰〰〰〰〰〰〰
 3. Stats :©
 !stats creedbot (sudoers)✔️
-shows bt statsߔꊘ蘱ای دیدن آمار ربات کرید
+shows bt statsߔای دیدن آمار ربات مرگ
 
 !statsߔ芳hows group statsߒ⊘♅ار گروه را نشان میده
 
