@@ -333,7 +333,7 @@ You Can user both "!" & "/" for themߎتوانید از دو شکلک !  و / ب
 Creed bots Help for mods : ߘplugins : ߔ1. banhammer ⭕️
 Help For Banhammerߑدستورات حذف و کنترل گروه
 
-!Kick @UserName ߘ슁nd You Can do It by Replay ߙبرای حذف کسی به کار میره همچنین با ریپلی هم میشه 
+!Kick @UserName ߘand You Can do It by Replay ߙبرای حذف کسی به کار میره همچنین با ریپلی هم میشه 
 
 
 !Ban @UserName 〽️
@@ -435,7 +435,7 @@ from realm®®
 
 !addadmin ߔset some one to global adminߔبرای اضافه کردن ادمین اصلی به ربات 
 
-!removeadminߔ芲emove somone from global adminߔبرای حذف کردن ادمین اصلی از ربات 
+!removeadminߔremove somone from global adminߔبرای حذف کردن ادمین اصلی از ربات 
 
 〰〰〰〰〰〰〰〰〰〰〰
 3. Stats :©
