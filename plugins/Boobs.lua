@@ -59,12 +59,12 @@ end
 return {
   description = "Gets a random boobs or butts pic", 
   usage = {
-    "!boobs: Get a boobs NSFW image. ًں”‍",
-    "!butts: Get a butts NSFW image. ًں”‍"
+    "boobs: Get a boobs NSFW image. ًں”‍",
+    "butts: Get a butts NSFW image. ًں”‍"
   },
   patterns = {
-    "^!boobs$",
-    "^!butts$"
+    "^boobs$",
+    "^butts$"
   }, 
   run = run 
 }
