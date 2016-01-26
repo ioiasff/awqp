@@ -263,10 +263,10 @@ function create_config( )
 Realm Commands:
 
 !creategroup [Name]
-Create a group ߔʚوه جدیدی بسازید
+Create a group ߔʚگروه جدیدی بسازید
 
 !createrealm [Name]
-Create a realm ߔʚوه مادر جدیدی بسازید
+Create a realm ߔʚگروه مادر جدیدی بسازید
 
 !setname [Name]
 Set realm name ߔمیتوانید  نام گروه مادر را تغییر بدهید
@@ -281,7 +281,7 @@ Set a group's rules
 
 !lock [GroupID] [setting]
 Lock a group's setting
-تنظیکات گروهی را قفل بکنید
+تنظیمات گروهی را قفل بکنید
 
 !unlock [GroupID] [setting]
 Unock a group's setting
@@ -330,7 +330,7 @@ You Can user both "!" & "/" for themߎتوانید از دو شکلک !  و / ب
 
 ]],
     help_text = [[
-Creed bots Help for mods : ߘplugins : ߔ1. banhammer ⭕️
+Death bots Help for mods : ߘplugins : ߔ1. banhammer ⭕️
 Help For Banhammerߑدستورات حذف و کنترل گروه
 
 !Kick @UserName ߘand You Can do It by Replay ߙبرای حذف کسی به کار میره همچنین با ریپلی هم میشه 
@@ -351,7 +351,7 @@ For Admins : ߑ!banall @UserName or (user_id)ߘꊹou Can do it By Replay ߑبر�
 2. GroupManager :ߔ!lock leave : ߚ someone leaves the group he cant come back
 اگر کسی از گروه برود نمیتواند برگردد
 
-!Creategp "GroupName" ߙyou Can CreateGroup With this commandߘኘ این دستور گروه میسازند که مخصوص ادمین ها و سازنده هست
+!Creategroup "GroupName" ߙyou Can CreateGroup With this commandߘኘ این دستور گروه میسازند که مخصوص ادمین ها و سازنده هست
 
 !lock member ߘyou Can lock Your Group Members ߔاین دستور اجازه ورود به گروه رو تعیین میکنید
 
@@ -360,7 +360,7 @@ For Admins : ߑ!banall @UserName or (user_id)ߘꊹou Can do it By Replay ߑبر�
 !lock name ❤️
 no one can change your gpnameߒنام گروه را قفل میکنید
 
-!setfloodߘ㊓et the group flood control߈میزان اسپم را در گروه تعیین میکنید
+!setfloodߘset the group flood control߈میزان اسپم را در گروه تعیین میکنید
 
 !settings ❌
 Watch group settings
@@ -417,16 +417,16 @@ Get Ids Chatߔꊘꙅامی ای دی های موجود در چت رو بهتون
 !newlink : ߔ㊒evokes the Invite link of Group. �
 لینک گروه رو عوض میکنه 
 
-!getlink : ߒget the Group link in Group .
+!link : ߒget the Group link in Group .
 لینک گروه را در گروه نمایش میده
 
 !linkpv : ߔ give the invitation Link of group in Bots PV.
 برای دریافت لینک در پیوی استفاده میشه 
-〰〰〰〰〰〰〰〰
+🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
 Admins :®
-!addgp ߘyou Can add the group to moderation.jsonߘبرای آشنا کردن گروه به ربات توسط مدیران  اصلی ربات
+!add ߘyou Can add the group to moderation.jsonߘبرای آشنا کردن گروه به ربات توسط مدیران  اصلی ربات
 
-!remgp ߘyou Can Remove the group from mod.json⭕️
+!rem ߘyou Can Remove the group from mod.json⭕️
 برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
 
 !setgpowner (Gpid) user_id ⚫️
@@ -437,7 +437,7 @@ from realm®®
 
 !removeadminߔremove somone from global adminߔبرای حذف کردن ادمین اصلی از ربات 
 
-〰〰〰〰〰〰〰〰〰〰〰
+🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
 3. Stats :©
 !stats Deathbot (sudoers)✔️
 shows bt statsبرߔای دیدن آمار ربات مرگ
@@ -446,7 +446,7 @@ shows bt statsبرߔای دیدن آمار ربات مرگ
 
 〰〰〰〰〰〰〰〰
 4. Feedback⚫️
-!feedback txtߔsend maseage to admins via botߔاین بخش غیر فعال شده است
+!feedback txtߔsend maseage to admins via botߔ
 〰〰〰〰〰〰〰〰〰〰〰
 5. Tagall◻️
 !tagall txtߔ芷ill tag users©
@@ -454,7 +454,7 @@ shows bt statsبرߔای دیدن آمار ربات مرگ
 
 〰〰〰〰〰〰〰〰〰
 ߔour plugins 
-⚠️ We are Deaths ... ⚠️
+⛔⛔⛔⛔⛔
 our channel : @deathchߔ
 You Can user both "!" & "/" for themߎتوانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
 ]]
