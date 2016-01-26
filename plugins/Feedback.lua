@@ -1,44 +1,32 @@
 do
-
 function run(msg, matches)
+  
+        name = user_print_name(msg.from)
+        name2 = 'نام : '..user_print_name(msg.from)..'\n'
+   id = msg.from.id
+   id2 = ' ایدی : '..msg.from.id..'\n'
+   msgg = matches[1]
+   msggg = 'پیام'..matches[1]..'\n'
+   nameuser = msg.from.username
+   nameuser2 = 'نام کاربر'..msg.from.username..'\n'
+   local msg = msggg..id2..name2..nameuser2
+   local id_send = tostring(_config.id_sudo)
+ 
+  
+   receiver = 'user#id'..id_send
 
-local fuse = '#DearAdmin😜 we have recived a new feedback just now : #newfeedback \n\n🆔 : ' .. msg.from.id .. '\n\nNAME▶️ : ' .. msg.from.print_name ..'\n\nusername▶️ :@ ' .. msg.from.username  ..'\pm :\n\n' .. matches[1] 
-local fuses = '!printf user#id' .. msg.from.id
+   send_large_msg(receiver, msg.."\n", ok_cb, false)
+    
 
+return 'پیام شما:\n '..msgg..'\n\nایدی شما:\n '..id..'\n\nنام کاربری شما :\n'..nameuser..'\n\nنام شما :\n'..name..'\n\n DEATHBOT'
 
-    local text = matches[1]
- bannedidone = string.find(msg.from.id, '123')
-        bannedidtwo =string.find(msg.from.id, '465')       
-   bannedidthree =string.find(msg.from.id, '678')  
-
-
-        print(msg.to.id)
-
-        if bannedidone or bannedidtwo or bannedidthree then                    --for banned people
-                return 'You are banned to send a feedback'
- else
-
-
-                 local sends0 = send_msg('chat#107798379', fuse, ok_cb, false)
-
- return 'Your request has been sended to Admins!'
-
-     
-
-end
-
+ 
 end
 return {
-  description = "Feedback to sudos",
-
-  usage = "!feedback : send maseage to admins with bot",
-  patterns = {
-    "^[!/]([Ff]eedback) (.*)$"
-
-  },
-  run = run
+    patterns = {
+      "^[/!]feedback (.*)$"
+    },
+    run = run,
 }
 
 end
-
---by @Arash--
