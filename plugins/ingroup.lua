@@ -1160,7 +1160,7 @@ local function run(msg, matches)
     end
   end]]
 
-    if matches[1] == 'newlink' and not is_realm(msg) then
+    if matches[1] == 'nlink' and not is_realm(msg) then
       if not is_momod(msg) then
         return "For moderators only!"
       end
@@ -1177,7 +1177,7 @@ local function run(msg, matches)
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] revoked group link ")
       return export_chat_link(receiver, callback, true)
     end
-    if matches[1] == 'link' then
+    if matches[1] == 'dlink' then
       if not is_momod(msg) then
         return "For moderators only!"
       end
@@ -1372,8 +1372,8 @@ return {
   "^[!/](settings)$",
 -- "^[!/](public) (.*)$",
   "^[!/](modlist)$",
-  "^[!/](newlink)$",
-  "^[!/](link)$",
+  "^[!/](nlink)$",
+  "^[!/](dlink)$",
   "^[!/](linkpv)$",
   "^[!/](kickinactive)$",
   "^[!/](kickinactive) (%d+)$",
