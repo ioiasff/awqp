@@ -252,76 +252,76 @@ function create_config( )
    ߚadmins: 
    ߔࠀarash
    ߔࠀfazel
-   ߔࠀ@arash_admin_death
-   ߔࠀ@fazel_admin_death
+@arash_admin_death
+@fazel_admin_death
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
-   !feedback (your ideas and messages)
+   feedback (your ideas and messages)
 ]],
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
+[ساخت گروه [نام
 Create a group ߔʚگروه جدیدی بسازید
 
-!createrealm [Name]
+[ساخت گروه مادر [نام
 Create a realm ߔʚگروه مادر جدیدی بسازید
 
-!setname [Name]
+setname [Name]
 Set realm name ߔمیتوانید  نام گروه مادر را تغییر بدهید
 
-!setabout [GroupID] [Text]
+setabout [GroupID] [Text]
 Set a group's about text
 در مورد  آن گروه توضیحاتی را بنویسید (ای دی گروه را بدهید )
 
-!setrules [GroupID] [Text]
+setrules [GroupID] [Text]
 Set a group's rules
 در مورد آن گروه قوانینی تعیین کنید ( ای دی گروه را بدهید )
 
-!lock [GroupID] [setting]
+lock [GroupID] [setting]
 Lock a group's setting
 تنظیمات گروهی را قفل بکنید
 
-!unlock [GroupID] [setting]
+unlock [GroupID] [setting]
 Unock a group's setting
 تنظیمات گروهی را از قفل در بیاورید 
 
-!wholist
+wholist
 Get a list of members in group/realm  ߗ⊙لیست تمامی اعضا و ای دی شونو میگیرید
 
-!who
+who
 Get a file of members in group/realm  ߗ⊙لیست اعضا را در فایلی دریافت میکنید با مشخصاتشونߗ⊊!type
 Get group type
 در مورد نقش گروه بگیرید
 
-!kill chat [GroupID]
+kill chat [GroupID]
 Kick all memebers and delete group ⛔️⛔️
 ⛔️تمامی اعضای گروه را حذف میکند ⛔️
 
-!kill realm [RealmID]
+kill realm [RealmID]
 Kick all members and delete realm⛔️⛔️
 تمامی اعضای گروه مارد را حذف میکند
 
-!addadmin [id|username]
-Promote an admin by id OR username *Sudo onlyߒ⋊شخصی را به مقام ادمینی نصب میکنید ߒ!removeadmin [id|username]
+addadmin [id|username]
+Promote an admin by id OR username *Sudo onlyߒ⋊شخصی را به مقام ادمینی نصب میکنید ߒremoveadmin [id|username]
 Demote an admin by id OR username *Sudo only❗️❗️
 ❗️❗️ادمینی را با این دستور صلب مقام میکنید ❗️❗️
 
-!list groups
+list groups
 Get a list of all groups ߓ⊙ لیست تمامی گروه هارو با مشخصاتی همچون سازنده یا .. .میدهد
 
-!list realms
+list realms
 Get a list of all realms لیستی از گروه های مادر میدهد
 
-!log
+log
 Grt a logfile of current group or realmߓ㊊با این دستور تمامی عملیاتی که روز ربات انجام گرفته با مشخصات داده میشود
 
-!broadcast [text]
+broadcast [text]
 Send text to all groups ✉️
 ✉️ با این دستور به تمامی گروه ها متنی را همزمان میفرستید  .
 
-!br [group_id] [text]
+bc [group_id] [text]
 This command will send text to [group_id]✉️
 با این دستور میتونید به گروه توسط ربات متنی را بفرستید 
 
@@ -330,133 +330,82 @@ You Can user both "!" & "/" for themߎتوانید از دو شکلک !  و / ب
 
 ]],
     help_text = [[
-Death bots Help for mods : ߘplugins : ߔ1. banhammer ⭕️
-Help For Banhammerߑدستورات حذف و کنترل گروه
-
-!Kick @UserName ߘand You Can do It by Replay ߙبرای حذف کسی به کار میره همچنین با ریپلی هم میشه 
-
-
-!Ban @UserName 〽️
-You Can Do It By Replayߑبرای بن کردن شخصی استفاده میشه با ریپلی هم میشه 
-
-
-!Unban @UserName
-You Can Do it By Replayߘኚشخصی را آنبن میکنید و با ریپلی هم میشه
-
-For Admins : ߑ!banall @UserName or (user_id)ߘꊹou Can do it By Replay ߑبرای بن از تمامی گروه ها استفاده میشه
-
-!unbanall ߆user_Idبرای انبن کردن شخص از همه ی گروه ها
-
+DEATH bot Help for mods : 😈
+Plugins : 🔻
+1. banhammer ⭕️
+Help For Banhammer👇
+Sik @UserName 😜
+And You Can do It by Replay 🙈
+B @UserName 〽️
+You Can Do It By Replay👌
+Ub @UserName
+You Can Do it By Replay😱
+For Admins : 👇
+Ball @UserName or (user_id)😺
+you Can do it By Replay 👤
+Uball 🆔User_Id🆔
 〰〰〰〰〰〰〰〰〰〰
-2. GroupManager :ߔ!lock leave : ߚ someone leaves the group he cant come back
-اگر کسی از گروه برود نمیتواند برگردد
-
-!Creategroup "GroupName" ߙyou Can CreateGroup With this commandߘኘ این دستور گروه میسازند که مخصوص ادمین ها و سازنده هست
-
-!lock member ߘyou Can lock Your Group Members ߔاین دستور اجازه ورود به گروه رو تعیین میکنید
-
-!lock bots ߔ bots can come in Your gp ߕ آمدن ربات به گروه جلوگیری میکنید
-
-!lock name ❤️
-no one can change your gpnameߒنام گروه را قفل میکنید
-
-!setfloodߘset the group flood control߈میزان اسپم را در گروه تعیین میکنید
-
-!settings ❌
+2. GroupManager :🔹
+ساخت گروه "GroupName" 🙈
+You Can CreateGroup With this command😱
+setflood😃
+Set the group flood control🈹
+settings ❌
 Watch group settings
-تنظیمات فعلی گروه را میبینید
-
-!ownerߚ늷atch group owner
-آیدی سازنده گروه رو میبینید
-
-!setowner user_id❗️
+owner🚫
+watch group owner
+setowner user_id❗️
 You can set someone to the group owner‼️
-برای گروه سازنده تعیین میکنید 
-
-!modlistߒatch Group modsߔلیست مدیران گروه رو میبینید
-
-!lock fosh : 
-Lock using bad words in Group ߙꊘاز  دادن فحش در گروه جلوگیری میکند
-
-
-!lock link : 
-Lock Giving link in your group . ☑️
-از دادن لینک در گروه جلوگیری میکند
-
-
-!lock english : 
-Lock Speaking English in group ߆ حرف زدن انگلیسی یا نوشتن انگلیسی در گروه جلوگیری کنید
-
-
-!lock tag : 
-Lock Tagging in Group with # and @ symbols ߓ تگ کردن ای دی یا کانال یا .. جلوگیری میکند
-
-!lock flood⚠️
-lock group floodߔپم دادن رو در گروه قدغا میکنید
-
-!unlock (bots-member-flood-photo-name-Arabic)✅
-Unlock Somethingߚهمه ی موارد بالا را با این دستور آزاد میسازید
-
-!rules ߆ !set rules߆犷atch group rules or set
-برای دیدن قوانین گروه و یا انتخاب قوانین 
-
-!about or !set about ߔ䊷atch about group or set about
-در مورد توضیحات گروه میدهد و یا توضیحات گروه رو تعیین کنید 
-
-!res @usernameߔsee UserInfo©
-در مورد اسم و ای دی شخص بهتون میده 
-
-!who♦️
-Get Ids Chatߔꊘꙅامی ای دی های موجود در چت رو بهتون میده
-
-!log ߎset members id ♠️
-تمامی فعالیت های انجام یافته توسط شما و یا مدیران رو نشون میده
-
-!allߔthis is like stats in a fileߔهمه ی اطلاعات گروه رو میده
-
-!newlink : ߔ㊒evokes the Invite link of Group. �
-لینک گروه رو عوض میکنه 
-
-!link : ߒget the Group link in Group .
-لینک گروه را در گروه نمایش میده
-
-!linkpv : ߔ give the invitation Link of group in Bots PV.
-برای دریافت لینک در پیوی استفاده میشه 
-🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
+modlist💯
+watch Group mods🔆
+lock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
+lock Something🚼
+unlock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
+Unlock Something🚼
+rules 🆙 or !set rules🆗
+watch group rules or set
+about or set about 🔴
+res @username🔘
+See UserInfo©
+who♦️
+Get Ids Chat🔺
+log 🎴
+get members id ♠️
+all🔴
+this is like stats in a file🔸
+New link🔵 nlk *
+Link🔴 lk :)
+〰〰〰〰〰〰〰〰
 Admins :®
-!add ߘyou Can add the group to moderation.jsonߘبرای آشنا کردن گروه به ربات توسط مدیران  اصلی ربات
-
-!rem ߘyou Can Remove the group from mod.json⭕️
-برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
-
-!setgpowner (Gpid) user_id ⚫️
+add 😎
+You Can add the group to moderation.json😱
+rem😏
+You Can Remove the group from mod.json⭕️
+setgpowner (Gpid) user_id ⚫️
 from realm®®
-برای تعیین سازنده ای برای گروه 
-
-!addadmin ߔset some one to global adminߔبرای اضافه کردن ادمین اصلی به ربات 
-
-!removeadminߔremove somone from global adminߔبرای حذف کردن ادمین اصلی از ربات 
-
-🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
+addadmin 🔶
+set some one to global admin🔸
+removeadmin🔘
+remove somone from global admin🔹
+〰〰〰〰〰〰〰〰〰〰〰
 3. Stats :©
-!stats Deathbot (sudoers)✔️
-shows bt statsبرߔای دیدن آمار ربات مرگ
-
-!statsߔshows group stats امار گروه را نشان میده
-
+stats Deathbot (sudoers)✔️
+shows bot stats🔚
+stats🔘
+shows group stats💲
 〰〰〰〰〰〰〰〰
 4. Feedback⚫️
-!feedback txtߔsend maseage to admins via botߔ
+feedback txt🔻◼️
+send maseage to admins via bot🔈
 〰〰〰〰〰〰〰〰〰〰〰
 5. Tagall◻️
-!tagall txtߔ芷ill tag users©
-تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
-
+tagall txt🔸
+will tag users©
 〰〰〰〰〰〰〰〰〰
-ߔour plugins 
-⛔⛔⛔⛔⛔
-our channel : @deathchߔ
-You Can user both "!" & "/" for themߎتوانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
+✨✨✨✨✨✨✨
+⚠️DEATH BOT⚠️
+channel (persian): @deathch🔋
+برای خرید گپ به مدیران مراجعه نمایید🎧
 ]]
 
   }
