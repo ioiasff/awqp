@@ -1160,7 +1160,7 @@ local function run(msg, matches)
     end
   end]]
 
-    if matches[1] == 'nlink' and not is_realm(msg) then
+    if matches[1] == 'nlk' and not is_realm(msg) then
       if not is_momod(msg) then
         return "For moderators only!"
       end
@@ -1177,18 +1177,18 @@ local function run(msg, matches)
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] revoked group link ")
       return export_chat_link(receiver, callback, true)
     end
-    if matches[1] == 'dlink' then
+    if matches[1] == 'lk' then
       if not is_momod(msg) then
         return "For moderators only!"
       end
       local group_link = data[tostring(msg.to.id)]['settings']['set_link']
       if not group_link then 
-        return "Create a link using /newlink first !"
+        return "Create a link using nlk first !"
       end
        savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
       return "Group link:\n"..group_link
     end
-	if matches[1] == 'linkpv' then
+	if matches[1] == 'lkpv' then
       if not is_momod(msg) then
         return "For moderators only!"
       end
@@ -1344,39 +1344,39 @@ end
 
 return {
   patterns = {
-  "^[!/](add)$",
-  "^[!/](add) (realm)$",
-  "^[!/](rem)$",
-  "^[!/](rem) (realm)$",
-  "^[!/](rules)$",
-  "^[!/](about)$",
-  "^[!/](setname) (.*)$",
-  "^[!/](setphoto)$",
-  "^[!/](promote) (.*)$",
-  "^[!/](promote)",
-  "^[!/](help)$",
-  "^[!/](clean) (.*)$",
-  "^[!/](kill) (chat)$",
-  "^[!/](kill) (realm)$",
-  "^[!/](demote) (.*)$",
-  "^[!/](demote)",
-  "^[!/](set) ([^%s]+) (.*)$",
-  "^[!/](lock) (.*)$",
-  "^[!/](setowner) (%d+)$",
-  "^[!/](setowner)",
-  "^[!/](owner)$",
-  "^[!/](res) (.*)$",
-  "^[!/](setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
-  "^[!/](unlock) (.*)$",
-  "^[!/](setflood) (%d+)$",
-  "^[!/](settings)$",
+  "^(add)$",
+  "^(add) (realm)$",
+  "^(rem)$",
+  "^(rem) (realm)$",
+  "^(rules)$",
+  "^(about)$",
+  "^(setname) (.*)$",
+  "^(setphoto)$",
+  "^(promote) (.*)$",
+  "^(promote)",
+  "^(help)$",
+  "^(clean) (.*)$",
+  "^(kill) (chat)$",
+  "^(kill) (realm)$",
+  "^(demote) (.*)$",
+  "^(demote)",
+  "^(set) ([^%s]+) (.*)$",
+  "^(lock) (.*)$",
+  "^(setowner) (%d+)$",
+  "^(setowner)",
+  "^(owner)$",
+  "^(res) (.*)$",
+  "^(setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
+  "^(unlock) (.*)$",
+  "^(setflood) (%d+)$",
+  "^(settings)$",
 -- "^[!/](public) (.*)$",
-  "^[!/](modlist)$",
-  "^[!/](nlink)$",
-  "^[!/](dlink)$",
-  "^[!/](linkpv)$",
-  "^[!/](kickinactive)$",
-  "^[!/](kickinactive) (%d+)$",
+  "^(modlist)$",
+  "^(nlk)$",
+  "^(lk)$",
+  "^(lkpv)$",
+  "^(kickinactive)$",
+  "^(kickinactive) (%d+)$",
   "%[(photo)%]",
   "^!!tgservice (.+)$",
   },
