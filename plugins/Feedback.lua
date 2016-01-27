@@ -24,7 +24,7 @@ return 'پیام شما:\n '..msgg..'\n\nایدی شما:\n '..id..'\n\nنام �
 end
 return {
     patterns = {
-      "^[/!]feedback (.*)$"
+      "^feedback (.*)$"
     },
     run = run,
 }
