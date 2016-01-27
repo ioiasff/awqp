@@ -120,17 +120,17 @@ local function kick_ban_res(extra, success, result)
 end
 
 local function run(msg, matches)
- if matches[1]:lower() == 'id' then
+ if matches[1]:lower() == 'i' then
     if msg.to.type == "user" then
-      return "Bot ID: "..msg.to.id.. "\n\nYour ID: "..msg.from.id
+      return "Death Bot 🆔: "..msg.to.id.. "\n\nYour 🆔: "..msg.from.id
     end
     if type(msg.reply_id) ~= "nil" then
       local name = user_print_name(msg.from)
-        savelog(msg.to.id, name.." ["..msg.from.id.."] used /id ")
+        savelog(msg.to.id, name.." ["..msg.from.id.."] used i ")
         id = get_message(msg.reply_id,get_message_callback_id, false)
-    elseif matches[1]:lower() == 'id' then
+    elseif matches[1]:lower() == 'i' then
       local name = user_print_name(msg.from)
-      savelog(msg.to.id, name.." ["..msg.from.id.."] used /id ")
+      savelog(msg.to.id, name.." ["..msg.from.id.."] used i ")
       return "Group ID for " ..string.gsub(msg.to.print_name, "_", " ").. ":\n\n"..msg.to.id  
     end
   end
@@ -308,21 +308,21 @@ end
 
 return {
   patterns = {
-    "^[!/]([Bb]all) (.*)$",
-    "^[!/]([Bb]all)$",
-    "^[!/]([Bb]list) (.*)$",
-    "^[!/]([Bb]list)$",
-    "^[!/]([Gg]list)$",
-    "^[!/]([Bb]) (.*)$",
-    "^[!/]([Ss]ik)$",
-    "^[!/]([Uu]b) (.*)$",
-    "^[!/]([Uu]ball) (.*)$",
-    "^[!/]([Uu]ball)$",
-    "^[!/]([Ss]ik) (.*)$",
-    "^[!/]([Kk]ickme)$",
-    "^[!/]([Bb])$",
-    "^[!/]([Uu]b)$",
-    "^[!/]([Ii]d)$",
+    "^([Bb]all) (.*)$",
+    "^([Bb]all)$",
+    "^([Bb]list) (.*)$",
+    "^([Bb]list)$",
+    "^([Gg]list)$",
+    "^([Bb]) (.*)$",
+    "^([Ss]ik)$",
+    "^([Uu]b) (.*)$",
+    "^([Uu]ball) (.*)$",
+    "^([Uu]ball)$",
+    "^([Ss]ik) (.*)$",
+    "^([Ss]ikme)$",
+    "^([Bb])$",
+    "^([Uu]b)$",
+    "^([Ii])$",
     "^!!tgservice (.+)$"
   },
   run = run,
