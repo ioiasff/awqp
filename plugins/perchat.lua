@@ -44,11 +44,10 @@ end
 if msg.text == "بای" then
 	return "بای"
 end
-if msg.text == "بای بای" then
-	return "بای بای"
+if msg.text == "استیکرتو بفرست" then
+	return "sticker:BQADBAADnb8RAAEqQ3cG05Dp4wquFVcC"
 end
 end
-
 return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
@@ -60,7 +59,7 @@ return {
 		"^اوکی$",
 		"^چیکار میکنی$",
 		"^بای$",
-		"^بای بای$",
+		"^استیکرتو بفرست$",
 		"^س$",
 		}, 
 	run = run,
