@@ -8,6 +8,7 @@ local bot_id = our_id -- your bot id
     elseif msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(bot_id) and not is_sudo(msg) then
        send_large_msg("chat#id"..msg.to.id, 'منو اد نکن گپی دو تومنه بخر .', ok_cb, false)
        chat_del_user("chat#id"..msg.to.id, 'user#id'..bot_id, ok_cb, false)
+       block_user("user#id"..msg.from.id,ok_cb,false)
     end
 end
  
